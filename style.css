@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main-container {
+    border: 3px solid black;
+    width: 800px;
+    height: 800px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.divv {
+    display: flex;
+    flex: 1;
+}
+
+.box {
+    border: 1px solid black;
+    flex: 1;
+}
+
+.change {
+    background-color: aqua;
+}
